@@ -30,5 +30,5 @@ jobs:
         SOURCE: "next.config.js package.json package-lock.json .next static"
         REMOTE_HOST: "13.124.157.24" # Replace with your EC2 instance's public IP address
         REMOTE_USER: "ec2-user" # Default user for Amazon Linux AMI, replace with your user if different
-        #REMOTE_PORT: "22"
+        REMOTE_PORT: "22"
         TARGET: "/dadream" # Replace with the path to your app directory on EC2
